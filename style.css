@@ -1,0 +1,115 @@
+body{
+    background-color: #f9fafa;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.main>div{
+    height: 40%;
+    width: 4%;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.main h3{
+    font-size: 140%;
+    color: black;
+}
+#content{
+    width: 80%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#content>div:first-child{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+#content>div:last-child{
+    width: 30%;
+}
+#content h2{
+    font-size: 100px;
+}
+#content h4{
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+}
+#content p{
+    color: #000000;
+    position: relative;
+    top: -70px;
+}
+#circles{
+    height: 150px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -60px;
+    gap: 3%;
+}
+#c1, #c2, #c3{
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+#c1:hover, #c2:hover, #c3:hover{
+    background-color: white ;
+    border: 1px solid black;
+}
+#c1{
+    background-color: rgb(238, 163, 2);
+}
+#c2{
+    background-color: rgb(255, 59, 37);
+}
+#c3{
+    background-color: rgb(28, 216, 218);
+}
+#circles p{
+    margin-top: 105px;
+    position: relative;
+    top: -40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#circles a{
+    text-decoration: none;
+}
+footer{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between
+}
+.head{
+    font-size: 20px;
+    font-weight: 600;
+}
+.text{
+    font-size: 17px;
+    color: #000000;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+}
+footer a{
+    color: black;
+}
